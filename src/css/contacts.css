@@ -1,0 +1,74 @@
+.smth_text {
+  margin-top: 50px;
+}
+
+#main_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+}
+.registration_type_list {
+  width: 40%;
+  font-size: 19px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.registration_type_item {
+  display: contents;
+  list-style-type: none;
+}
+.registration_type_item_link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.registration_type_item_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
+}
+#registration_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-weight: 800;
+  font-size: 23px;
+}
+#registration_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  padding: 5px;
+
+  margin-top: 25px;
+  height: 350px;
+  width: 500px;
+}
+#form_box {
+  width: 75%;
+  margin-top: 100px;
+}
+.regisrtation_form {
+  margin: 30px 10px;
+  height: 30px;
+  width: 100%;
+}
+#submit_bttn {
+  width: 105px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 800;
+  margin: 20px;
+}
+#submit_bttn:active {
+  background-color: rgb(255, 255, 126);
+  border-color: rgb(255, 255, 126);
+}

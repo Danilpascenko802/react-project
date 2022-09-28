@@ -1,0 +1,43 @@
+.mainpage_text {
+  margin-top: 10%;
+  margin-left: 170px;
+}
+#home_body {
+}
+.home_page {
+  margin-top: 5%;
+}
+.userType_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home_user_item {
+  list-style-type: none;
+}
+.home_wichuser_link {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  position: relative;
+}
+.home_wichuser_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
+}
+#home_text_area {
+  min-width: 100px;
+  min-height: 80px;
+  height: 158px;
+  width: 360px;
+  margin-left: 33%;
+}
+.home_submit_btn {
+  display: block;
+  margin-left: 48%;
+}
+/* HOME */
+.home_page_text {
+  padding-left: 50px;
+  width: 50%;
+}
