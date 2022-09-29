@@ -17,7 +17,7 @@
 }
 .home_wichuser_link {
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   display: inline-block;
   position: relative;
 }
@@ -36,7 +36,6 @@
   display: block;
   margin-left: 48%;
 }
-/* HOME */
 .home_page_text {
   padding-left: 50px;
   width: 50%;
