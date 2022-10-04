@@ -50,17 +50,32 @@
   padding: 5px;
 
   margin-top: 25px;
+  margin-bottom: 100px;
   height: 350px;
   width: 500px;
 }
 #form_box {
   width: 75%;
-  margin-top: 100px;
+  /*margin-top: 50px;*/
 }
 .regisrtation_form {
   margin: 30px 10px;
   height: 30px;
   width: 100%;
+}
+#showPass_box {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  margin-left: 10px;
+}
+#showPass_box_checkbox {
+  width: 20px;
+  height: 20px;
+}
+#showPass_box_text {
+  margin-left: 10px;
+  margin-top: 5px;
 }
 #submit_bttn {
   width: 105px;

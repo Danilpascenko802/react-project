@@ -17,7 +17,10 @@
 .entrance_btn:active {
   background-color: rgb(144, 144, 144);
 }
-
+#entrance_btn_link {
+  text-decoration: none;
+  color: #000;
+}
 .header_logo_img {
   position: relative;
   width: auto;
